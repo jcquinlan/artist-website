@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+body, html {
+    font-family: 'Playfair Display', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Playfair Display', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------------------------------------------------- Modal */
+.modal-header {
+    border: none;
+}
+
+/* ------------------------------------------------------- Header */
+#header {
+    margin: 40px 0;
+}
+#header ul {
+    padding: 0;
+    display: inline-block;
+    float: right;
+}
+#header li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* ------------------------------------------------------ Media Queries */
+@media(max-width: 767px){
+    #header {
+        text-align: center;
+    }
+    #header ul {
+        float: none;
+    }
+}
